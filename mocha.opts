@@ -1,0 +1,7 @@
+--require ts-node/register/type-check
+--require tsconfig-paths/register
+--require src/_bootstrap.ts
+--reporter spec
+--watch-extensions tsx,ts,xml
+
+src/**/*.spec.ts

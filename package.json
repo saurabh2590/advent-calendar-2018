@@ -1,0 +1,33 @@
+{
+  "name": "advent-calendar-2018",
+  "version": "1.0.0",
+  "description": "Practicing advent-calendar-2018 from https://adventofcode.com/2018",
+  "main": "index.ts",
+  "scripts": {
+    "test": "TS_NODE_CACHE_DIRECTORY=.cache/ts-node CACHE_REQUIRE_PATHS_FILE=.cache/require.json mocha --opts mocha.opts",
+    "tslint": "tslint -c tslint.json --project tsconfig.json -t stylish",
+    "tslint:fix": "npm run tslint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh2590/advent-calendar-2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabh2590/advent-calendar-2018/issues"
+  },
+  "homepage": "https://github.com/saurabh2590/advent-calendar-2018#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.11",
+    "bm-tslint-rules": "github:bettermarks/bm-tslint-rules#v0.5.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.7.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.1"
+  }
+}

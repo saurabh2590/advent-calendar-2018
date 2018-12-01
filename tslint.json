@@ -1,0 +1,12 @@
+{
+    "extends": [
+      "bm-tslint-rules"
+    ],
+//    "rulesDirectory": [],
+    "rules": {
+      "curly": false, // ??? "curly": [true, "as-needed", "ignore-same-line"]
+      "no-implicit-dependencies": false, // should be [true, "dev"] but false positives on aliases
+      "no-redundant-jsdoc": false, // we could use this to clean up our JSDoc (it also throws on @constructor and possibly other "unsupported" tags)
+      "no-submodule-imports": false // we are using submodule imports from aliases
+    }
+}

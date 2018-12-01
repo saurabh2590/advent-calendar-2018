@@ -4,7 +4,9 @@
   "description": "Practicing advent-calendar-2018 from https://adventofcode.com/2018",
   "main": "index.ts",
   "scripts": {
+    "check": "ts-node",
     "test": "TS_NODE_CACHE_DIRECTORY=.cache/ts-node CACHE_REQUIRE_PATHS_FILE=.cache/require.json mocha --opts mocha.opts",
+    "test:debug": "TS_NODE_CACHE_DIRECTORY=.cache/ts-node CACHE_REQUIRE_PATHS_FILE=.cache/require.json mocha $NODE_DEBUG_OPTION  --opts mocha.opts",
     "tslint": "tslint -c tslint.json --project tsconfig.json -t stylish",
     "tslint:fix": "npm run tslint -- --fix"
   },

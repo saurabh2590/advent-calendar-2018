@@ -18,7 +18,7 @@ describe('Calibration for ', () => {
   });
 });
 
-describe.only('Repeat for ', () => {
+describe('Repeat for ', () => {
   it('[+1, -2, +3, +1]', () => {
     expect(getRepeatFrequency([+1, -2, +3, +1])).to.be.eql(2);
   });
